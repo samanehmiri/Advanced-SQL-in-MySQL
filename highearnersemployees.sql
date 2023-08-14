@@ -42,7 +42,9 @@ ON T.departmentId = d.id
 where rnk <= 3
 
 /*
-The DENSE_RANK() function is a window function in SQL that assigns a unique rank to each distinct row within a result set based on the values in one or more specified columns. This function is often used to calculate rankings while allowing for duplicate rankings in cases of ties. Here's how it works:
+The DENSE_RANK() function is a window function in SQL that assigns a unique rank to 
+each distinct row within a result set based on the values in one or more specified columns. 
+This function is often used to calculate rankings while allowing for duplicate rankings in cases of ties. Here's how it works:
 
 Syntax:
 The basic syntax of the DENSE_RANK() function is:
